@@ -10,11 +10,14 @@
     "moment": "^2.21.0"
   },
   "devDependencies": {
+    "coffe-script": "0.0.1-security",
+    "coffee": "^4.1.0",
+    "coffee-script": "^1.12.7",
     "mocha": "^5.0.4",
     "sinon": "^4.4.3"
   },
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha"
+    "test": "node node_modules/mocha/bin/mocha --watch"
   },
   "author": "Akram",
   "license": "ISC"
